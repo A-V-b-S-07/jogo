@@ -1,0 +1,20 @@
+Widgets: São os componentes gráficos, como botões, rótulos, caixas de entrada, etc.
+
+O que é pack?
+    É um gerenciador de geometria, que pode compactar widgets em linhas ou colunas. Ele funciona como um empacotamento de dados, agrupa dados em uma estrutura compactada.
+
+Como ele é usado em Tkinter?
+    Normalmente é usado para a organização de botões, rótulos caixas de texto, etc. Elas vão aparecer na ordem em que foram empacotadas de cima para baixo.
+
+Opções de como empacotar e redimencionar os widgets ?
+    Side, fill, expand, pack_forget, padx e pady
+    side: mostra qual lado vai ser adicionado (TOP, BOTTOM, LEFT e RIGHT), 
+    fill: é usado para preencher os espaços, pode preencher horizontal (X), vertical (Y) ou ambos (BOTH).
+    expand: para ajustar se o widget vai preencher todo o espaço extra do container ou não.
+    pack_forget: remove um empacotamento feito anteriormente
+    padx e pady: preenchem o ao redor do widget com espaço em branco
+
+Quais os beneficios de usar o pack?
+    Ele é mais tranquilo de se aprender principalmente para iniciantes, além de ele se alto ajustar na janela tambem são bem flexiveis quando se trata de poder escolher onde o widget vai ficar.
+
+Justificativa: Eu não fazia muita ideia se usava pack, grid ou place, acabou que eu escolhi o pack por parecer um pouco mais intuitivo e facil de usar do que os outros, por mais que os outros possam ser mais organizados ou mais bem formulados (não sei se é realmente isso mas é o que parece), mas para uma primeira vez usando eu achei que fosse melhor pegar o mais tranquilo. Ele pode ser bem util quando queremos organizar em uma ordem linear ou sequencial. 
